@@ -12,7 +12,7 @@ It is very common to use a centralized database in a hotel. But some hotels have
 
 
 ## Database Link 
-I have created a virtual PC through Oracle VM Virtualbox. We have established a connection between the main PC and the virtual one through a link.
+I have created a virtual PC through Oracle VM Virtualbox. I have established a connection between the main PC and the virtual one through a link.
 Here the Virtualbox is considered as the host or server and the laptop is considered as site. The tables of the project are run in the site and then accessed via a site link connection. The main PC is the host from where the tables of the site are accessed.
 The site link is created using this following code:
 
