@@ -34,7 +34,7 @@ Here the Virtualbox is considered as the host or server and the laptop is consid
 
 ## Functions and Procedures
 
-Four functions and two procedures are created for the project. The usefulness and name of the procedures are given below:
+Three functions and four procedures are created for the project. The name and usefulness of the procedures are given below:
 
 Function: 
 1. func_customer_mobile1: Displays the mobile number of the customer.
@@ -49,25 +49,11 @@ Procedure:
 
 ## Semi-Join program
 
-Semi-join program is more profitable than natural join. In our project, semi-join program is implemented and proved that it’s superior.
-
-As example:
-
-For joining RoomDetails and Bill1 in site of Bill1:
-
-Using semi-join would be more profitable here than bringing all data from table RoomDetails to site of Bill2.
+Semi-join program is more profitable than natural join. In our project, semi-join program is implemented and proved that it’s superior. As example, for joining RoomDetails and Bill1 in site of Bill1, using semi-join would be more profitable here than bringing all data from table RoomDetails to site of Bill2.
 
 ## Operator Tree
 
-An internal representation of the query is created such as a query tree or query graph. We made two operator trees for our project. I made one of them. Then I derived a fragmentation query from there.
-
-My operator tree query and fragmented query:
-
-Q2: PJ roomNo, bill_id, amount (SL roomType = ‘Standared” (RoomDetails JN roomNo = roomNo Bill))
-
-## Fragmented Query
-
-QF: PJ roomNo, bill_id, amount ((PJ bill_id, roomNo (Bill1)) JN roomNo = roomNo (PJ roomNo, roomType SL roomType = ‘Standared” (RoomDetails1)))
+An internal representation of the query is created such as a query tree or query graph. I made two operator trees for our project. Then I derived a fragmentation query from that.
 
 ## Conclusion
 
