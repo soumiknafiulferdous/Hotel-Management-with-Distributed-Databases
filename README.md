@@ -16,21 +16,6 @@ I have created a virtual PC through Oracle VM Virtualbox. We have established a 
 Here the Virtualbox is considered as the host or server and the laptop is considered as site. The tables of the project are run in the site and then accessed via a site link connection. The main PC is the host from where the tables of the site are accessed.
 The site link is created using this following code:
 
-drop database link site_link;
-create database link site_link
-connect to system identified by "123456"
-using '(DESCRIPTION =
-(ADDRESS_LIST =
-(ADDRESS = (PROTOCOL = TCP)
-(HOST = 192.168.56.102)
-(PORT = 1521))
-)
-(CONNECT_DATA =
-(SID = XE)
-)
-)'
-;
-
 ## Database Tables (Global Schema): 
 
 1. Customer (c_id, name, mobile, email, date_of_birth, nationality, city)
@@ -39,7 +24,6 @@ using '(DESCRIPTION =
 4. Employee (Emp_id, name, cur_address, dutyHour, roomNo)
 5. Food (foodNo, Type, name, rate)
 6. Bill (bill_id, c_id, roomNo, amount, paymentStatus)
-
 
 ## Fragmentation Schema:
 
