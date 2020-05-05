@@ -70,6 +70,7 @@ Using semi-join would be more profitable here than bringing all data from table 
 An internal representation of the query is created such as a query tree or query graph. We made two operator trees for our project. I made one of them. Then I derived a fragmentation query from there.
 
 My operator tree query and fragmented query:
+
 Q2: PJ roomNo, bill_id, amount (SL roomType = ‘Standared” (RoomDetails JN roomNo = roomNo Bill))
 
 ## Fragmented Query
