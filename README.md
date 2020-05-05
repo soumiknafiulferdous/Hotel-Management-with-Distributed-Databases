@@ -11,12 +11,12 @@ Hotel management system is a management system to provide service facility to ho
 It is very common to use a centralized database in a hotel. But some hotels have many branches in different places, cities or countries. So, it is necessary to have a distributed database management system to manage and look over the whole database management system from one server. Distributed database management system makes operation faster to operate in a particular location. It also makes the system easier. The distributed database can have the data arranged according to different levels of transparency i.e. data with different transparency levels can be stored at different locations. So, we develop a distributed database management system for hotel.
 
 
-## Database Link :
+## Database Link 
 I have created a virtual PC through Oracle VM Virtualbox. We have established a connection between the main PC and the virtual one through a link.
 Here the Virtualbox is considered as the host or server and the laptop is considered as site. The tables of the project are run in the site and then accessed via a site link connection. The main PC is the host from where the tables of the site are accessed.
 The site link is created using this following code:
 
-## Database Tables (Global Schema): 
+## Database Tables (Global Schema)
 
 1. Customer (c_id, name, mobile, email, date_of_birth, nationality, city)
 2. RoomDetails (roomNo, roomType, roomRate)
@@ -25,7 +25,7 @@ The site link is created using this following code:
 5. Food (foodNo, Type, name, rate)
 6. Bill (bill_id, c_id, roomNo, amount, paymentStatus)
 
-## Fragmentation Schema:
+## Fragmentation Schema
 
 Site1:
 
