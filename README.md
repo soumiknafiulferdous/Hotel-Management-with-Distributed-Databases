@@ -44,3 +44,34 @@ Site2:
 4. Employee2 = SL cur_address = 'Sylhet' PJ Emp_id, name, cur_address, dutyHour, roomNo (Employee)
 5. Food2 = SL type = ‘Bangla’ PJ foodNo, type, name, rate (Food)
 6. Bill2 = Bill SJ c_id = c_id Customer2
+
+## Functions and Procedures
+
+Four functions and two procedures are created for the project. The usefulness and name of the procedures are given below:
+
+Function: 
+1. func_customer_mobile1: Displays the mobile number of the customer.
+
+Procedure:
+1. RoomDetails: . Displays the details information of the rooms.
+
+## Semi-Join program
+
+Semi-join program is more profitable than natural join. In our project, semi-join program is implemented and proved that it’s superior.
+
+As example:
+For joining RoomDetails and Bill1 in site of Bill1:
+Using semi-join would be more profitable here than bringing all data from table RoomDetails to site of Bill2.
+
+## Operator Tree
+
+An internal representation of the query is created such as a query tree or query graph. We made two operator trees for our project. I made one of them. Then I derived a fragmentation query from there.
+My operator tree query and fragmented query:
+Q2: PJ roomNo, bill_id, amount (SL roomType = ‘Standared” (RoomDetails JN roomNo = roomNo Bill))
+
+## Fragmented Query
+
+QF: PJ roomNo, bill_id, amount ((PJ bill_id, roomNo (Bill1)) JN roomNo = roomNo (PJ roomNo, roomType SL roomType = ‘Standared” (RoomDetails1)))
+
+## Conclusion:
+Making the hotel database distributed can lead to a very good output in the hotel management system. The hotel has a central database and it is distributed into multiple sites for the multiple branches. Than this will make the owner to access different information from different sites and look over the whole database management system from one server.
