@@ -4,19 +4,11 @@
 
 Travelling in different places is so easy if we can book the perfect hotel and it will be great when we can book them staying at our home. It can be possible through the hotel website. Managing a hotel is a true 24 hours a day, 7 days a week operation. Managing daily responsibilities, team members, operational performance and the guest experience is a complex balancing act that requires great attention to detail, organization and flexibility. Web-based technology, from personal computing programs to online data storage, has greatly reduced the cost of developing, deploying and maintaining the software and systems that individuals and businesses use daily. That’s why we choose it to make the management system easier. Here we tried to make a hotel website using Distributed Database System. The hotel has two branches in Sylhet and in Dhaka. We tried to make the system smoother and user friendly.
 
-## Project Description
+## Description
 
 Hotel management system is a management system to provide service facility to hotel’s employee and also to the customers. The hotel management system gives all the information regarding the check in or check out facilities of the customer. This hotel management system can be used by employees in a hotel to handle the clients, their bookings and can help them easily find free rooms or booking rooms. The services that are provided is room booking, food ordering management by the employee through the system, customer information management and employee information management, food information managementt and room information management.
 
 It is very common to use a centralized database in a hotel. But some hotels have many branches in different places, cities or countries. So, it is necessary to have a distributed database management system to manage and look over the whole database management system from one server. Distributed database management system makes operation faster to operate in a particular location. It also makes the system easier. The distributed database can have the data arranged according to different levels of transparency i.e. data with different transparency levels can be stored at different locations. So, we develop a distributed database management system for hotel.
-
-## Contribution:
-
-1. Database link: I have some contribution in database link as I am one of the sites.
-3. Fragmentation: I have created some of the fragments.
-4. Function and procedure: I have made one of the functions and one of the procedures.
-5. Operator Tree: I have made an operator tree between the two operator trees is showed in this report. The operator tree from the query, application of criteria and the fragmented tree is done.
-6. Semi-Join Program: The theory of semi-join program is also proven here. I have shown it with an example.
 
 
 ## Database Link 
