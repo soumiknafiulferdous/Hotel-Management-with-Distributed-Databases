@@ -60,12 +60,15 @@ Procedure:
 Semi-join program is more profitable than natural join. In our project, semi-join program is implemented and proved that it’s superior.
 
 As example:
+
 For joining RoomDetails and Bill1 in site of Bill1:
+
 Using semi-join would be more profitable here than bringing all data from table RoomDetails to site of Bill2.
 
 ## Operator Tree
 
 An internal representation of the query is created such as a query tree or query graph. We made two operator trees for our project. I made one of them. Then I derived a fragmentation query from there.
+
 My operator tree query and fragmented query:
 Q2: PJ roomNo, bill_id, amount (SL roomType = ‘Standared” (RoomDetails JN roomNo = roomNo Bill))
 
@@ -73,5 +76,6 @@ Q2: PJ roomNo, bill_id, amount (SL roomType = ‘Standared” (RoomDetails JN ro
 
 QF: PJ roomNo, bill_id, amount ((PJ bill_id, roomNo (Bill1)) JN roomNo = roomNo (PJ roomNo, roomType SL roomType = ‘Standared” (RoomDetails1)))
 
-## Conclusion:
+## Conclusion
+
 Making the hotel database distributed can lead to a very good output in the hotel management system. The hotel has a central database and it is distributed into multiple sites for the multiple branches. Than this will make the owner to access different information from different sites and look over the whole database management system from one server.
