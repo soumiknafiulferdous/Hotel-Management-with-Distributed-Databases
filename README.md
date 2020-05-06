@@ -43,9 +43,7 @@ Procedurse:
 
 ## Semi-Join program
 
-Semi-join program is more profitable than natural join here. In this project, semi-join program is implemented and it performs very well. 
-
-For example, for joining RoomDetails and Bill1 in site of Bill1, using semi-join would be more profitable here than bringing all data from table RoomDetails to site of Bill2.
+Semi-join program is more profitable than natural join here. In this project, semi-join program is implemented and it performs very well. For example, for joining RoomDetails and Bill1 in site of Bill1, using semi-join would be more profitable here than bringing all data from table RoomDetails to site of Bill2.
 
 ## Operator Tree
 
