@@ -1,1 +1,1 @@
-*.* linguist-detectable=sql
+*.tsql linguist-vendored
