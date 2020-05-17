@@ -1,1 +1,1 @@
-*.tsql linguist-detectable=false
+*.* linguist-detectable=plsql
