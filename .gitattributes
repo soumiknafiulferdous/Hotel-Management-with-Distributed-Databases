@@ -1,1 +1,1 @@
-*.site1Insert.sql linguist-vendored
+*.* linguist-language=SQL
